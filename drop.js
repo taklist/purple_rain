@@ -2,7 +2,7 @@ function Drop () {
     this.x = random(width);
     this.y = random(-500, -50);
     this.len = 20;
-    this.speed = 10;
+    this.speed = 5;
 
     this.fall = function() {
         this.y = this.y + this.speed;
